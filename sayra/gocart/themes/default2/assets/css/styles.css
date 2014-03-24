@@ -1,0 +1,30 @@
+.test {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+  height: 150px;
+}
+
+.product-image {
+	display:table;
+	width:100%;
+}
+
+.product .thumbnail {
+	height: 150px;
+	vertical-align:middle;
+	text-align:center;
+	display: table-cell;
+	width:100%;
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+.product .thumbnail img {
+	max-height:150px;
+	display:inline;
+	margin:auto;
+}
